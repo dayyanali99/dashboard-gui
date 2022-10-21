@@ -1,0 +1,35 @@
+$custom-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+.home {
+  width: 100%;
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .widgets,
+    .charts {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .charts {
+      padding: 5px 20px;
+    }
+
+    .listContainer {
+      box-shadow: $custom-box-shadow;
+      -webkit-box-shadow: $custom-box-shadow;
+      -moz-box-shadow: $custom-box-shadow;
+      padding: 20px;
+      margin: 20px;
+
+      .listTitle {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

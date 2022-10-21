@@ -1,0 +1,18 @@
+$custom-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+.chart {
+    flex: 5;
+    box-shadow: $custom-box-shadow;
+    -webkit-box-shadow: $custom-box-shadow;
+    -moz-box-shadow: $custom-box-shadow;
+    padding: 10px;
+    color: gray;
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .chartGrid {
+        stroke: lightgray;
+    }
+}
